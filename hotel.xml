@@ -1,0 +1,116 @@
+<hotel>
+    <hotelID>516223</hotelID>
+    <hotelName>BestHotel</hotelName>
+    <address>7009 NE 138th</address>
+    <phoneNumber>+4258225313</phoneNumber>
+    <city>Kirkland</city>
+    <state>Washington(WA)</state>
+    <zip>98034</zip>
+
+    <room>
+        <roomNumber>101</roomNumber>
+        <roomType>Standart</roomType>
+        <bedType>Standart</bedType>
+        <isFree>true</isFree>
+        <cost>25.99</cost>
+    </room>
+
+    <room>
+        <roomNumber>102</roomNumber>
+        <roomType>Standart</roomType>
+        <bedType>Standart</bedType>
+        <isFree>true</isFree>
+        <cost>25.99</cost>
+    </room>
+
+    <room>
+        <roomNumber>103</roomNumber>
+        <roomType>Standart</roomType>
+        <bedType>Standart</bedType>
+        <isFree>true</isFree>
+        <cost>25.99</cost>
+    </room>
+
+    <room>
+        <roomNumber>201</roomNumber>
+        <roomType>Standart</roomType>
+        <bedType>Standart</bedType>
+        <isFree>false</isFree>
+        <cost>25.99</cost>
+    </room>
+
+    <room>
+        <roomNumber>202</roomNumber>
+        <roomType>Standart</roomType>
+        <bedType>Standart</bedType>
+        <isFree>false</isFree>
+        <cost>25.99</cost>
+    </room>
+
+    <room>
+        <roomNumber>203</roomNumber>
+        <roomType>Standart</roomType>
+        <bedType>Standart</bedType>
+        <isFree>false</isFree>
+        <cost>25.99</cost>
+    </room>
+
+
+    <customer>
+        <ID>4752709452</ID>
+        <firstName>Andres</firstName>
+        <lastName>Sisk</lastName>
+        <phoneNumber>760-359-8411</phoneNumber>
+        <email>AndresCSisk@rhyta.com</email>
+        <reservation>
+            <arrivalTime>2022, Month.APRIL, 4</arrivalTime>
+            <departureTime>2022, Month.APRIL, 8</departureTime>
+            <roomNumber>101</roomNumber>
+        </reservation>
+        <payment>
+            <cardNumber>4556 7210 3879 3866</cardNumber>
+            <cardHolder>Andres Sisk</cardHolder>
+            <expirationDate>10/2023</expirationDate>
+            <billedAmount>12.99</billedAmount>
+        </payment>
+    </customer>
+
+    <customer>
+        <ID>4341693703</ID>
+        <firstName>Leonard</firstName>
+        <lastName>Shibata</lastName>
+        <phoneNumber>724-529-9788</phoneNumber>
+        <email>LeonardTShibata@rhyta.com</email>
+        <reservation>
+            <arrivalTime>2022, Month.MARCH, 14</arrivalTime>
+            <departureTime>2022, Month.APRIL, 18</departureTime>
+            <roomNumber>101</roomNumber>
+        </reservation>
+        <payment>
+            <cardNumber>5307 0047 4140 7952</cardNumber>
+            <cardHolder>Leonard Shibata</cardHolder>
+            <expirationDate>12/2027</expirationDate>
+            <billedAmount>12.99</billedAmount>
+        </payment>
+    </customer>
+
+    <customer>
+        <ID>4834230160</ID>
+        <firstName>Rosalba</firstName>
+        <lastName>Martin</lastName>
+        <phoneNumber>406-828-9077</phoneNumber>
+        <email>RosalbaRMartin@dayrep.com</email>
+        <reservation>
+            <arrivalTime>2022, Month.APRIL, 23</arrivalTime>
+            <departureTime>2022, Month.APRIL, 27</departureTime>
+            <roomNumber>101</roomNumber>
+        </reservation>
+        <payment>
+            <cardNumber>4556 7210 3879 3866</cardNumber>
+            <cardHolder>Rosalba Martin</cardHolder>
+            <expirationDate>10/2023</expirationDate>
+            <billedAmount>12.99</billedAmount>
+        </payment>
+    </customer>
+
+</hotel>
